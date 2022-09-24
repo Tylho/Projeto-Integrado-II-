@@ -3,12 +3,12 @@
 int main()
 
 {
- char nome[30], endereco[30], telefone[15];
- printf("Informe seu nome: ");
+ char nome[40], endereco[40], telefone[20];
+ printf("Digite seu nome: ");
  gets(nome);
- printf("Informe seu endereco: ");
+ printf("Digite seu endereco: ");
  gets(endereco);
- printf("Informe seu telefone: ");
+ printf("Digite seu telefone: ");
  gets(telefone);
  printf("\n\nNome: %s\n\n",nome);
  printf("Endereco: %s\n\n",endereco);
